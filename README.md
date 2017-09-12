@@ -4,6 +4,9 @@ gradle build
 ```
 
 Copiar o *jar* gerado dentro da pasta _build/libs/HadoopTests-1.0-SNAPSHOT.jar_ para a pasta *__$HADOOP__/share/hadoop/mapreduce/*
+```bash
+cp $WORKSPACE/HadoopExamples/build/libs/HadoopTests-1.0-SNAPSHOT.jar $HADOOP/share/hadoop/mapreduce
+```
 
 Criar a seguinte pasta:
 ```bash
